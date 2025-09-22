@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Akbar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #f1f1f1;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px;
+      background: linear-gradient(135deg, #000000, #1a1a1a);
+      border-bottom: 2px solid #ffcc00;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #ffcc00;
+      letter-spacing: 2px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .method {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #ffcc00;
+    }
+
+    .number {
+      margin: 10px 0;
+      font-size: 1.2rem;
+    }
+
+    .name {
+      font-size: 1rem;
+      color: #b3b3b3;
+    }
+
+    .qris {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .qris a {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease-in-out;
+    }
+
+    .qris a:hover {
+      background: #ffaa00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>💳 Payment Akbar</h1>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <div class="method">DANA</div>
+      <div class="number">085879616788</div>
+      <div class="name">A/N: AKBAR</div>
+    </div>
+
+    <div class="card">
+      <div class="method">GOPAY</div>
+      <div class="number">085879616788</div>
+      <div class="name">A/N: AKBAR</div>
+    </div>
+
+    <div class="card">
+      <div class="method">OVO</div>
+      <div class="number">085879616788</div>
+      <div class="name">A/N: AKBAR</div>
+    </div>
+
+    <div class="qris">
+      <a href="qris.png" target="_blank">🔗 Lihat QRIS</a>
+    </div>
+  </div>
+</body>
+</html>
